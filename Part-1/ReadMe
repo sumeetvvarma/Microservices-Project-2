@@ -1,25 +1,36 @@
 This part contains a Spring boot microservice and Spring boot config server illustrating the mechanism to fetch the properties from GitHub and implement profiling mechanism for a microservice.
 
-Projects to refer: Limits-Service, Limits-Config-Server
-Property files to refer : limits-service.properties, limits-service-qa.properties, limits-service-dev.properties
+--------------------------
+Projects to refer: 
 
-Docker Images:
-https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-service
-https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-config-server
+1.) Limits-Service
+2.) Limits-Config-Server
+
+---------------------------------
+Property files to refer :
+
+1.) limits-service.properties 
+2.) limits-service-qa.properties 
+3.) limits-service-dev.properties
+
+----------------------------------------
+Docker Images to refer:
+
+1.) https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-service
+2.) https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-config-server
 
 -----------------------------------------------------------------------
-
 Topics covered: 
 	-REST services with Springboot Microservice, 
 	-Setting up spring cloud config server with GIT, 
 	-configuring different profiles / Profiling
+
 ---------------------------------
-http://localhost:8080/limits
+URLs to refer: 
 
-http://localhost:8888/limits-service/default
-
-http://localhost:8888/limits-service/qa
-
-http://localhost:8888/limits-service/dev
+1.) http://localhost:8080/limits
+2.) http://localhost:8888/limits-service/default
+3.) http://localhost:8888/limits-service/qa
+4.) http://localhost:8888/limits-service/dev
 
 ---------------- -----------------
