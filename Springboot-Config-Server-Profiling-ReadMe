@@ -1,0 +1,21 @@
+This part contains a Spring boot microservice and Spring boot config server illustrating the mechanism to fetch the properties from GitHub and implement profiling mechanism for a microservice.
+
+Projects to refer: Limits-Service, Limits-Config-Server
+Property files to refer : limits-service.properties, limits-service-qa.properties, limits-service-dev.properties
+
+-----------------------------------------------------------------------
+
+Topics covered: 
+	-REST services with Springboot Microservice, 
+	-Setting up spring cloud config server with GIT, 
+	-configuring different profiles / Profiling
+---------------------------------
+http://localhost:8080/limits
+
+http://localhost:8888/limits-service/default
+
+http://localhost:8888/limits-service/qa
+
+http://localhost:8888/limits-service/dev
+
+---------------- -----------------
