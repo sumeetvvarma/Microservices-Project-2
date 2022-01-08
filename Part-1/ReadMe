@@ -3,6 +3,10 @@ This part contains a Spring boot microservice and Spring boot config server illu
 Projects to refer: Limits-Service, Limits-Config-Server
 Property files to refer : limits-service.properties, limits-service-qa.properties, limits-service-dev.properties
 
+Docker Images:
+https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-service
+https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-config-server
+
 -----------------------------------------------------------------------
 
 Topics covered: 
