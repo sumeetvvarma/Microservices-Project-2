@@ -1,0 +1,51 @@
+
+Projects to refer: Currency-Exchange-Service, Currency-Conversion-Service, Currency-Api-Gateway, Currency-Eureka-Server
+
+-------------------------------------
+
+Topics covered:
+	-Creating multiple microservices.
+	-Inter Micro service communication using resttemplate and feign client
+	-Properties file configurations and data.sql configuration for JPA configuration / H2 console
+	-Creating Eureka discovery service/ naming server for dynamic microservice location and load balancing
+	-Creating API gateway and passing requests via gateway to Eureka server and routing gateway reqeuest to LB
+	-Creating global filters/ interceptors at API gateway for loggin and other purpose
+	-Using resilience4j for Circuit breaker,retry, bulkhead and ratelimiting
+
+
+H2 Console
+
+http://localhost:8000/h2-console
+---------------------------------------
+Currency Exchange Service
+
+http://localhost:8000/currency-exchange/from/USD/to/INR
+---------------------------------------
+Currency Conversion Service
+
+http://localhost:8100/currency-conversion-feign/from/UK/to/INR/quantity/11
+http://localhost:8100/currency-conversion/from/UK/to/INR/quantity/11
+------------------------------------------------------------------------------
+Eureka Server
+
+http://localhost:8761/
+---------------------------------------
+
+Currency Exchange Service via API Gateway
+
+http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
+
+//AFTER DISABLING SERVICE LOCATOR IN API GATEWAY
+http://localhost:8765/currency-exchange/from/USD/to/INR
+---------------------------------------------------------------------------------------------------------------------
+Currency conversion Service via API Gateway
+
+http://localhost:8765/currency-conversion-service/currency-conversion/from/UK/to/INR/quantity/11
+http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/UK/to/INR/quantity/11
+
+//AFTER DISABLING SERVICE LOCATOR IN API GATEWAY
+http://localhost:8765/currency-conversion/from/UK/to/INR/quantity/11
+http://localhost:8765/currency-conversion-feign/from/UK/to/INR/quantity/11
+http://localhost:8765/currency-conversion-new/from/UK/to/INR/quantity/11
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
