@@ -56,6 +56,10 @@
 					<layers>
 						<enabled>true</enabled>
 					</layers>
+					<image>
+						<name>sumeetvvarma/ms2-limits-config-server:latest</name>
+					</image>
+					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
 				</configuration>
 			</plugin>
 		</plugins>
