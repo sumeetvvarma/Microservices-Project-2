@@ -14,7 +14,7 @@ Property files to refer :
 3.) limits-service-dev.properties
 
 ----------------------------------------
-Docker Images to refer:
+Docker images to refer:
 
 1.) https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-service
 2.) https://hub.docker.com/repository/docker/sumeetvvarma/ms2-limits-config-server
