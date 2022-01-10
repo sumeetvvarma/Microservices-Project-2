@@ -1,3 +1,9 @@
+
+#IF YOU ARE RUNNING SERVICES ON LOCAL MACHINE, PLEASE USE localhost AS THE HOST NAME/DOMAIN NAME IN ALL IP ADDRESSES FOR CONNECTION
+#IF YOU ARE RUNNING SERVICES ON VIRTUAL MACHINE OF DOCKER CONTAINER, PLEASE replace localhost with 192.168.99.100 IN ALL IP ADDRESSES FOR CONNECTION 
+
+--------------------------------
+
 This part contains a Spring boot microservice and Spring boot config server illustrating the mechanism to fetch the properties from GitHub and implement profiling mechanism for a microservice.
 
 --------------------------
@@ -28,7 +34,7 @@ Topics covered:
 ---------------------------------
 URLs to refer: 
 
-1.) http://localhost:8080/limits
+1.) http://localhost:8080/limits OR http://192.168.99.100:8080/limits
 2.) http://localhost:8888/limits-service/default
 3.) http://localhost:8888/limits-service/qa
 4.) http://localhost:8888/limits-service/dev

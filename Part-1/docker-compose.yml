@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+    limits-config-server:
+        image: sumeetvvarma/ms2-limits-config-server:latest
+        ports:
+            - "8888:8888"
+        networks:
+            - limits-network
+    limits-service:
+        image: sumeetvvarma/ms2-limits-service:latest
+        ports:
+            - "8080:8080"
+        networks:
+            - limits-network
+networks:
+    limits-network:
