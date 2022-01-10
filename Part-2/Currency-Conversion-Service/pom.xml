@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.varma.limits.currency.conversion</groupId>
-	<artifactId>Currency-Conversion-Service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ms2-currency-conversion-service</artifactId>
+	<version>latest</version>
 	<name>Currency-Conversion-Service</name>
 	<description>Currency Conversion Microservice</description>
 	<properties>

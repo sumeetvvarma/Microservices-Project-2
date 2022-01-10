@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.varma.currency.gateway</groupId>
-	<artifactId>Currency-Api-Gateway</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ms2-currency-api-gateway</artifactId>
+	<version>latest</version>
 	<name>Currency-Api-Gateway</name>
 	<description>Currency API Gateway</description>
 	<properties>

@@ -66,6 +66,7 @@ services:
            RABBIT_URI: amqp://guest:guest@rabbitmq:5672
         depends_on:
            - rabbitmq
+        restart: always
 
     rabbitmq:
         image: rabbitmq:3.8.12-management

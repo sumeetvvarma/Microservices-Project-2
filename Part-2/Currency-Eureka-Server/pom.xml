@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.varma.currency.discovery</groupId>
-	<artifactId>Currency-Eureka-Server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ms2-currency-eureka-server</artifactId>
+	<version>latest</version>
 	<name>Currency-Eureka-Server</name>
 	<description>Currency Eureka Server</description>
 	<properties>

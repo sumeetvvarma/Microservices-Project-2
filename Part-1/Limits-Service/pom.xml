@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.varma.microservices</groupId>
-	<artifactId>Limits-Service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ms2-limits-service</artifactId>
+	<version>latest</version>
 	<name>Limits-Service</name>
 	<description>Limits Microservice</description>
 	<properties>

@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.varma.limits.currency.exchange</groupId>
-	<artifactId>Currency-Exchange-Service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ms2-currency-exchange-service</artifactId>
+	<version>latest</version>
 	<name>Currency-Exchange-Service</name>
 	<description>Currency Exchange Microservice</description>
 	<properties>
