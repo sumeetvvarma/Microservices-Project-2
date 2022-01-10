@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+    currency-eureka-server:
+        image: sumeetvvarma/ms2-currency-eureka-server:latest
+        ports:
+            - "8761:8761"
+        networks:
+            - currency-network
+    currency-api-gateway:
+        image: sumeetvvarma/ms2-currency-api-gateway:latest
+        ports:
+            - "8765:8765"
+        networks:
+            - currency-network
+    currency-exchange-service:
+        image: sumeetvvarma/ms2-currency-exchange-service:latest
+        ports:
+            - "8000:8000"
+        networks:
+            - currency-network
+    currency-conversion-service:
+        image: sumeetvvarma/ms2-currency-conversion-service:latest
+        ports:
+            - "8100:8100"
+        networks:
+            - currency-network
+networks:
+    currency-network:

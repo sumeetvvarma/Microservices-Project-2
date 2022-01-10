@@ -1,3 +1,9 @@
+
+#IF YOU ARE RUNNING SERVICES ON LOCAL MACHINE, PLEASE USE localhost AS THE HOST NAME/DOMAIN NAME IN ALL IP ADDRESSES FOR CONNECTION
+#IF YOU ARE RUNNING SERVICES ON VIRTUAL MACHINE OF DOCKER CONTAINER, PLEASE replace localhost with 192.168.99.100 IN ALL IP ADDRESSES FOR CONNECTION 
+
+-------------------------------------
+
 This part contains a Spring boot microservices, Discovery/Naming Server, API gateway.
 
 ---------------------------------
@@ -34,43 +40,57 @@ URLs to refer:
 ######################
 Eureka Server
 
-1.) http://localhost:8761/
+1.) http://localhost:8761/ OR http://192.168.99.100:8761/
 
 #######################
 H2 Console
 
-2.) http://localhost:8000/h2-console
+2.) http://localhost:8000/h2-console OR http://192.168.99.100:8000/h2-console/
 
 #############################
 Currency Exchange Service
 
-3.) http://localhost:8000/currency-exchange/from/USD/to/INR
+3.) http://localhost:8000/currency-exchange/from/USD/to/INR 
+	OR http://192.168.99.100:8000/currency-exchange/from/USD/to/INR
 
 ###############################
 Currency Conversion Service
 
-4.) http://localhost:8100/currency-conversion-feign/from/UK/to/INR/quantity/11
-5.) http://localhost:8100/currency-conversion/from/UK/to/INR/quantity/11
+4.) http://localhost:8100/currency-conversion-feign/from/UK/to/INR/quantity/11 
+	OR http://192.168.99.100:8100/currency-conversion-feign/from/UK/to/INR/quantity/11 
+
+5.) http://localhost:8100/currency-conversion/from/UK/to/INR/quantity/11 
+    OR http://192.168.99.100:8100/currency-conversion/from/UK/to/INR/quantity/11 
 
 #########################################
 Currency Exchange Service via API Gateway
 
-6.) http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
+6.) http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR 
+	OR http://192.168.99.100:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
 
 //AFTER DISABLING SERVICE LOCATOR IN API GATEWAY
 
-7.) http://localhost:8765/currency-exchange/from/USD/to/INR
+7.) http://localhost:8765/currency-exchange/from/USD/to/INR 
+	OR http://192.168.99.100:8765/currency-exchange/from/USD/to/INR
 
 ############################################
 Currency conversion Service via API Gateway
 
 8.) http://localhost:8765/currency-conversion-service/currency-conversion/from/UK/to/INR/quantity/11
+	OR http://192.168.99.100:8765/currency-conversion-service/currency-conversion/from/UK/to/INR/quantity/11
+	
 9.) http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/UK/to/INR/quantity/11
+	OR http://192.168.99.100:8765/currency-conversion-service/currency-conversion-feign/from/UK/to/INR/quantity/11
 
 //AFTER DISABLING SERVICE LOCATOR IN API GATEWAY
 
 10.) http://localhost:8765/currency-conversion/from/UK/to/INR/quantity/11
+	OR http://192.168.99.100:8765/currency-conversion/from/UK/to/INR/quantity/11
+	
 11.) http://localhost:8765/currency-conversion-feign/from/UK/to/INR/quantity/11
+	OR http://192.168.99.100:8765/currency-conversion-feign/from/UK/to/INR/quantity/11
+
 12.) http://localhost:8765/currency-conversion-new/from/UK/to/INR/quantity/11
+	OR http://192.168.99.100:8765/currency-conversion-new/from/UK/to/INR/quantity/11
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
