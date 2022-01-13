@@ -13,5 +13,7 @@ services:
             - "8080:8080"
         networks:
             - limits-network
+        depends_on: 
+            - limits-config-server
 networks:
     limits-network:
