@@ -19,6 +19,7 @@ Property files to refer :
 2.) limits-service-qa.properties 
 3.) limits-service-dev.properties
 
+You can copy the property files at some specific location in your system. For example, i have copied the property files at F:\To-Set\Workspace\ location.
 ----------------------------------------
 Docker image link to refer:
 
